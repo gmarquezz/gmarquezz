@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<link rel="stylesheet" href= "styles/estilo.css">
+<title>Ofimatica</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("article").hide()
+   $("#lista").hide()
+   $("#parrafo").hide();
+  $("#menuofimatica").click(function(){
+    $("#lista").show(); 
+  });
+  $("#menucomparativas").click(function(){
+    $("#lista").hide();
+    $("#parrafo").show();
+    $("article").hide()
+    $("#comparativas").show();
+  });
+  $("#menuantivirus").click(function(){
+    $("#lista").hide();
+    $("#parrafo").show();
+    $("article").hide()
+    $("#antivirus").show();
+  });
+  $("#menulinux").click(function(){
+    $("#lista").hide();
+    $("#parrafo").show();
+    $("article").hide()
+    $("#linux").show();
+  });
+  $("#menuwindows").click(function(){
+    $("#lista").hide();
+    $("#parrafo").show();
+    $("article").hide()
+    $("#windows").show();
+  });
+    });
+
+
+</script>
+</head>
+<body>
+<header>
+  <h2>Ofimatica</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li id="menuofimatica"><a href="#ofimatica"><b>Ofimatica</b></a></li>
+        <ul id="lista">
+          <li id="menulinux"><a href="#linux"><b>Linux</b></a></li>
+          <li id="menuwindows"><a href="#windows">Windows</a></li>
+        </ul>
+      <li id="menucomparativas"><a href="#comparativas"><b>Comparativas</b></a></li>
+      <li id="menuantivirus"><a href="#antivirus"><b>Antivirus</b></a></li>
+    </ul>
+  </nav>
+  <article id="linux">
+    <iframe  style="width:100%; height: 650px; border:none"src="pages/linux.html"></iframe>
+  </article>
+  <article id="windows">
+    <iframe  style="width:100%; height: 650px; border:none"src="pages/windows.html"></iframe>
+  </article>
+  <article id="comparativas">
+    <iframe   style="width:100%; height: 650px; border:none"src="pages/comparativas.html"></iframe>
+  </article>
+  <article id="antivirus">
+    <iframe style="width:100%; height: 650px; border:none"src="pages/antivirus.html"></iframe>
+  </article>
+</section>
+<p id="parrafo">Página web realidada por Gonzalo Márquez Varo, alumno del IES Medina Azahara</p>
+</body>
+</html>
