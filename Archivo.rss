@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+<title>Lenguaje de marcas</title>
+<link>https://gmarquezz.github.io/gmarquezz/</link>
+<description> Ofimatica </description>
+<category>ofimatica/comparativas/windows</category>
+<copyright>1º ASIR - LMAR</copyright>
+<language>es-es</language>
+<lastBuildDate>Wed, 21 Dec 2022 11:25:12 GMT</lastBuildDate>
+<webMaster>mavago_aliesma20@iesmedinaazahara.es</webMaster>
+
+<item>
+<title>Ofimatica</title>
+<description>Comparativas sobre dicha aplicaciones</description>
+<link>https://gmarquezz.github.io/gmarquezz/#ofimatica</link>
+<author>mavago_aliesma20@iesmedinaazahara.es</author>
+<category>Ofimatica</category>
+<pubDate>Wed, 21 Dec 2022 11:25:12 GMT</pubDate>
+</item>
+
+<item>
+<title>Linux</title>
+<description>Ofimatica linux</description>
+<link>https://gmarquezz.github.io/gmarquezz/#linux</link>
+<author>mavago_aliesma20@iesmedinaazahara.es</author>
+<category>Ofimatica</category>
+<pubDate>Wed, 21 Dec 2022 11:25:12 GMT</pubDate>
+</item>
+
+<item>
+<title>Windows</title>
+<description>Ofimatica Linux</description>
+<link>https://gmarquezz.github.io/gmarquezz/#windows</link>
+<author>mavago_aliesma20@iesmedinaazahara.es</author>
+<category>Ofimatica</category>
+<pubDate>Wed, 21 Dec 2022 11:25:12 GMT</pubDate>
+</item>
+
+<item>
+<title>Comparativas</title>
+<description>Comparativa Linux-Windows</description>
+<link>https://gmarquezz.github.io/gmarquezz/#comparativas</link>
+<author>mavago_aliesma20@iesmedinaazahara.es</author>
+<category>Comparativa</category>
+<pubDate>Wed, 21 Dec 2022 11:25:12 GMT</pubDate>
+</item>
+
+
+<item>
+<title>Antivirus</title>
+<description>Comparativa antivirus</description>
+<link>https://gmarquezz.github.io/gmarquezz/#antivirus</link>
+<author>mavago_aliesma20@iesmedinaazahara.es</author>
+<category>Antivirus</category>
+<pubDate>Wed, 21 Dec 2022 08:25:12 GMT</pubDate>
+</item>
+
+
